@@ -2,14 +2,15 @@
 	"manifest_version": 2,
 	"name": "RARBG thumbnails",
 	"short_name": "RARBG thumbs",
-	"description": "Display thumbnails automaticly on RARBG.to",
+	"description": "Display thumbnails automaticly on RARBG.is",
 	"version": "1.0",
 	"content_scripts":
 	[
 		{
 			"matches":
 			[
-				"https://rarbg.to/torrents.php*"
+				"https://rarbg.is/torrents.php*"
+				"https://1337x.to/*"
 			],
 			"js":
 			[
